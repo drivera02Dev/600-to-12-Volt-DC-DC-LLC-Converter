@@ -1,0 +1,6003 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0847a727-0f6a-4027-be9f-8623aa48a658")
+	(paper "A4")
+	(title_block
+		(company "Author: Rootthecause")
+	)
+	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DC-DC Symbol Lib:+12V_sw"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V_sw"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_sw_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_sw_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+12V_sw"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DC-DC Symbol Lib:NCP43080AMTTWG"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U1"
+				(at -7.9659 9.652 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "NCP4305AMTTWG"
+				(at 0.9241 9.652 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:WDFN-8_2x2mm_P0.5mm"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.de/datasheet/2/308/1/NCP4305_D-2317117.pdf"
+				(at 1.27 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Synchronous Rectifier Controller, 4A/8A, 4V UVLO, GaN Capable, WDFN-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "synchronous rectifier controller"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "OnSemi*DFN*2x2mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NCP43080AMTTWG_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "NCP43080AMTTWG_1_1"
+				(pin passive line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "MIN_TOFF"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 1.27 0)
+					(length 2.54)
+					(name "MIN_TON"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "LLD"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -6.35 0)
+					(length 2.54)
+					(name "TRIG/DIS"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "DRV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:NetTie_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NetTie_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Samacsys:BSC027N06LS5ATMA1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 21.59 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "BSC027N06LS5ATMA1"
+				(at 21.59 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Samacsys:BSC027N06LS5ATMA1"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-30/596570.pdf"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "MOSFET DIFFERENTIATED MOSFETS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1"
+				(at 21.59 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "726-BSC027N06LS5ATMA"
+				(at 21.59 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSC027N06LS5ATMA1?qs=HXFqYaX1Q2z6vEIhZX7Vzw%3D%3D"
+				(at 21.59 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Infineon"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "BSC027N06LS5ATMA1"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "BSC027N06LS5ATMA1_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 20.32 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "S_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "S_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "S_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "D_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "D_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "D_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -5.08 180)
+					(length 5.08)
+					(name "D_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -7.62 180)
+					(length 5.08)
+					(name "D_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "B2"
+		(exclude_from_sim no)
+		(at 151.003 118.618 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "028b72cc-08fa-48d4-99b5-b1998437a035")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 186.69 139.065 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "12b53f71-b817-4976-9904-082064d95a70")
+	)
+	(text "LLD to GND disables light \nload disable feature."
+		(exclude_from_sim no)
+		(at 105.791 93.726 0)
+		(effects
+			(font
+				(size 0.6 0.6)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f41a143-c9d4-4208-8021-df39feb45cfc")
+	)
+	(text "+24V"
+		(exclude_from_sim no)
+		(at 185.42 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8821e80e-a5bb-4b11-bbcb-b443c8bed83a")
+	)
+	(text "Dummy-Net for Kelvin connection"
+		(exclude_from_sim no)
+		(at 163.195 143.51 0)
+		(effects
+			(font
+				(size 0.6 0.6)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a52aeb7-20ca-45c2-b256-92ddcf32f8e4")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 186.69 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad2c673f-2567-4c9d-9b96-ad2b166e2e1f")
+	)
+	(text "B1"
+		(exclude_from_sim no)
+		(at 151.511 68.072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cf50d5a5-774f-42cc-8240-4ed8931b41b0")
+	)
+	(text "LLD to GND disables light \nload disable feature."
+		(exclude_from_sim no)
+		(at 105.791 143.129 0)
+		(effects
+			(font
+				(size 0.6 0.6)
+			)
+			(justify left bottom)
+		)
+		(uuid "d462d4dc-a24d-44b0-b18d-d30d016e795a")
+	)
+	(text "Dummy-Net for Kelvin connection"
+		(exclude_from_sim no)
+		(at 163.195 93.98 0)
+		(effects
+			(font
+				(size 0.6 0.6)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1296f6b-36f1-4005-9afb-ad168605b139")
+	)
+	(junction
+		(at 177.165 60.325)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0224d66c-716d-4339-b0c3-1164e1da2afd")
+	)
+	(junction
+		(at 148.59 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b8dd4ac-fce3-45ff-b30a-2d9915f40842")
+	)
+	(junction
+		(at 149.225 67.945)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c10c1c1-3d47-4164-9b56-860ace688f39")
+	)
+	(junction
+		(at 148.59 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1278ed58-18e0-48de-b3dd-ddbb4b02ad2f")
+	)
+	(junction
+		(at 142.24 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12892b84-f29b-40ce-8080-8876615b9a4b")
+	)
+	(junction
+		(at 177.165 109.855)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12a5db98-b72b-4de8-a272-5e95114fd396")
+	)
+	(junction
+		(at 179.705 60.325)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12e08ffb-8ac7-449f-8dfb-975899b4e5e6")
+	)
+	(junction
+		(at 179.705 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12e3860b-9195-4f22-8e4c-ee3f19df3951")
+	)
+	(junction
+		(at 163.83 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1422cda8-a38f-456f-b29c-9369e64afacd")
+	)
+	(junction
+		(at 191.77 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1480a0eb-459f-4c95-8c0d-12a24b4c4627")
+	)
+	(junction
+		(at 116.205 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2811b615-35ed-49ef-9140-998baa2f4813")
+	)
+	(junction
+		(at 105.41 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28b20bd8-e170-4094-9e10-c8fbb464b934")
+	)
+	(junction
+		(at 184.785 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "346aa865-09ee-4bd1-bc9f-4177fa3519d3")
+	)
+	(junction
+		(at 166.37 60.325)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3555141e-a5b7-4d32-b3cd-a91af2bcadd5")
+	)
+	(junction
+		(at 182.245 60.325)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4585b3e6-730f-4d37-bd93-763c2b6ed0e5")
+	)
+	(junction
+		(at 130.175 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48549a3b-cc1e-47a4-9519-e5ae656ab34f")
+	)
+	(junction
+		(at 116.205 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f1e1ac4-4351-4a81-9e7f-7daa2ee450cb")
+	)
+	(junction
+		(at 179.705 109.855)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5be40f38-e242-4117-86a2-e7461fdaa6c5")
+	)
+	(junction
+		(at 182.245 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d3e3ebf-d500-442f-8248-a96ff2dc5e3c")
+	)
+	(junction
+		(at 184.785 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6875dd80-a3f8-4516-99c1-d09d18246c5f")
+	)
+	(junction
+		(at 179.705 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6af8fd79-90be-4c25-9c80-6f7699ec2318")
+	)
+	(junction
+		(at 166.37 109.855)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81af47f2-0733-45e4-8a5f-4d9db3d92b18")
+	)
+	(junction
+		(at 182.245 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81ed7386-9571-421d-8e89-8041e2e8218b")
+	)
+	(junction
+		(at 149.225 60.325)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ab49943-f5cb-4adc-86c6-a997c705dc6f")
+	)
+	(junction
+		(at 148.59 109.855)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e82baaf-9265-43d7-8457-7d894fe56c3a")
+	)
+	(junction
+		(at 163.83 73.025)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8bbd835-e407-4858-a3b8-9f6c29a2c4df")
+	)
+	(junction
+		(at 161.925 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9ca8954-b988-4591-b9c7-7225dbf8baf3")
+	)
+	(junction
+		(at 142.24 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc335343-ad94-4f6b-88df-ebd4aacd8cd7")
+	)
+	(junction
+		(at 182.245 109.855)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7fa9c0b-e690-4f26-95ac-b89a044ffb1d")
+	)
+	(junction
+		(at 142.24 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d476239a-a325-4787-8375-427a5756b0a5")
+	)
+	(junction
+		(at 105.41 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5216336-5606-4efe-8f6e-14b7f55b6f42")
+	)
+	(junction
+		(at 142.24 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d66fd4b3-d611-4612-87a4-2101133201e1")
+	)
+	(junction
+		(at 130.175 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9f99a9b-cbdf-4e4a-ae67-f05bebfca34e")
+	)
+	(junction
+		(at 161.925 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1880e76-1ebb-40a7-8d6e-22ba430f6ba0")
+	)
+	(junction
+		(at 110.49 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e46bbaa6-d78c-4179-a1c8-6e2cd957b7b0")
+	)
+	(junction
+		(at 130.175 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e479a8ac-39c2-48a5-9150-bc6c2b04f1ba")
+	)
+	(junction
+		(at 130.175 108.585)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e653835a-f00b-4aa2-9089-e0c442f666ee")
+	)
+	(junction
+		(at 110.49 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f23679a4-2b20-4449-9dff-1a704ccea70e")
+	)
+	(junction
+		(at 142.24 73.025)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa9c7b25-8a98-450c-9d54-272f454e98c4")
+	)
+	(junction
+		(at 149.225 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff79e6ab-a1e7-4e0e-98b2-96d8fa16c00b")
+	)
+	(wire
+		(pts
+			(xy 177.165 60.325) (xy 179.705 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0292fc99-de15-4349-b731-6d40d8020193")
+	)
+	(wire
+		(pts
+			(xy 182.245 135.255) (xy 182.245 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "046f8f81-3339-441e-a1fc-bec7f3786218")
+	)
+	(wire
+		(pts
+			(xy 116.205 139.7) (xy 130.175 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04a6a0d5-42c5-4a64-8dd4-b7c78bd2b844")
+	)
+	(wire
+		(pts
+			(xy 166.37 100.33) (xy 166.37 109.855)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0610b60f-60ff-4162-a75c-e357912d7cf7")
+	)
+	(wire
+		(pts
+			(xy 110.49 119.38) (xy 120.015 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0740e1b0-e394-451f-912d-26b146c0ce60")
+	)
+	(wire
+		(pts
+			(xy 113.03 108.585) (xy 130.175 108.585)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0797c3ee-2738-4337-a452-b74cb80e0a43")
+	)
+	(wire
+		(pts
+			(xy 179.705 139.7) (xy 182.245 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "097e2006-b296-4a81-9db9-a1258c9696bb")
+	)
+	(wire
+		(pts
+			(xy 191.77 90.17) (xy 199.39 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a4d182b-2531-4215-8fd0-ab291d8ec3e9")
+	)
+	(wire
+		(pts
+			(xy 177.165 85.725) (xy 177.165 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1004e691-5880-477c-8282-754318561e07")
+	)
+	(polyline
+		(pts
+			(xy 146.05 93.98) (xy 146.05 47.625)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 194 194 1)
+		)
+		(uuid "1088e303-2a23-490c-ae03-c4af99550b3d")
+	)
+	(wire
+		(pts
+			(xy 142.24 82.55) (xy 142.24 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11d98a98-8ead-4e29-b49a-d22b6ff66179")
+	)
+	(wire
+		(pts
+			(xy 163.83 87.63) (xy 163.83 73.025)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1647b951-b374-48ca-9622-b4ffb7e08f0a")
+	)
+	(wire
+		(pts
+			(xy 177.165 109.855) (xy 179.705 109.855)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f5bea30-d3ca-40d1-97dd-634441998566")
+	)
+	(wire
+		(pts
+			(xy 149.225 85.09) (xy 149.225 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24fef3e2-4aab-4584-9193-721fa84fcb9a")
+	)
+	(wire
+		(pts
+			(xy 120.015 127) (xy 118.745 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2610e769-8e9d-4d81-bc7e-9b74710a480e")
+	)
+	(wire
+		(pts
+			(xy 163.83 123.19) (xy 163.83 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26b64fdf-d19c-490c-9b97-1285cb3879bb")
+	)
+	(wire
+		(pts
+			(xy 149.225 60.325) (xy 166.37 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27c7e44d-3eb5-4050-a138-ba9abdb3f53c")
+	)
+	(wire
+		(pts
+			(xy 161.29 73.025) (xy 163.83 73.025)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29555d11-ed02-4211-84ea-53706f7a540f")
+	)
+	(wire
+		(pts
+			(xy 179.705 90.17) (xy 182.245 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "296e0f98-79a8-4dac-a4cc-a1f330f02489")
+	)
+	(wire
+		(pts
+			(xy 81.915 50.165) (xy 166.37 50.165)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dc42b4a-8f69-45c7-8216-99a720b9a5da")
+	)
+	(wire
+		(pts
+			(xy 105.41 90.17) (xy 110.49 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "308adb5d-e888-4d57-a94b-315573f129da")
+	)
+	(wire
+		(pts
+			(xy 166.37 60.325) (xy 177.165 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "330d9fcc-cac9-4d6d-bebf-1d2eb2d73194")
+	)
+	(wire
+		(pts
+			(xy 118.745 82.55) (xy 142.24 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3477a7dc-7d89-48ad-8da5-c841909763e0")
+	)
+	(wire
+		(pts
+			(xy 130.175 130.81) (xy 130.175 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "349a257c-dc2d-4c2d-8cbd-c92e85f1cf2f")
+	)
+	(wire
+		(pts
+			(xy 110.49 90.17) (xy 116.205 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3501d929-798d-4f8f-bdda-4a41846a2ac5")
+	)
+	(polyline
+		(pts
+			(xy 144.78 143.51) (xy 144.78 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 194 194 1)
+		)
+		(uuid "37827f5a-8945-4a4d-94de-b3132e2dbd11")
+	)
+	(wire
+		(pts
+			(xy 142.24 136.525) (xy 142.24 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39b2bf88-d31d-4524-81cd-b5cb6cc702a2")
+	)
+	(wire
+		(pts
+			(xy 140.335 118.11) (xy 148.59 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ccda641-2f16-4290-9231-6bc642744bc9")
+	)
+	(wire
+		(pts
+			(xy 177.165 135.255) (xy 177.165 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d44ba85-c42f-4e35-b49f-e3675d9a4d17")
+	)
+	(wire
+		(pts
+			(xy 116.205 90.17) (xy 130.175 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d9bd496-3b40-4897-8a4b-3669b367cab0")
+	)
+	(wire
+		(pts
+			(xy 182.245 85.725) (xy 182.245 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ed12d27-3e63-44a0-b511-bb1dc7360d6b")
+	)
+	(wire
+		(pts
+			(xy 179.705 60.325) (xy 182.245 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f6aa8a9-6fab-41d5-87d9-ffee41906562")
+	)
+	(wire
+		(pts
+			(xy 105.41 139.7) (xy 110.49 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "410b5046-2e92-4533-832c-6e4100660165")
+	)
+	(polyline
+		(pts
+			(xy 154.305 93.98) (xy 146.05 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 194 194 1)
+		)
+		(uuid "42f22d75-3d6b-4fee-adfc-d0602d6ebbf8")
+	)
+	(wire
+		(pts
+			(xy 182.245 60.325) (xy 184.785 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "443f6966-30aa-4fc2-b0cc-4a138694782d")
+	)
+	(wire
+		(pts
+			(xy 166.37 109.855) (xy 166.37 135.255)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44b2896e-61a5-4890-8415-dfb32cd8948e")
+	)
+	(wire
+		(pts
+			(xy 177.165 87.63) (xy 163.83 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "454c45b5-27ad-4617-98bd-77f40c43c2ce")
+	)
+	(wire
+		(pts
+			(xy 140.335 67.945) (xy 149.225 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48d62d38-c0ab-409b-88f8-2ba1811d50aa")
+	)
+	(wire
+		(pts
+			(xy 99.695 108.585) (xy 107.95 108.585)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49b60729-342a-459a-a2b6-5bda08656862")
+	)
+	(polyline
+		(pts
+			(xy 153.67 97.155) (xy 144.78 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 194 194 1)
+		)
+		(uuid "4a2b88f8-b172-45f8-8ab8-084e07bcf1a3")
+	)
+	(wire
+		(pts
+			(xy 110.49 136.525) (xy 110.49 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dae7600-69b3-4fb5-b8c6-2733cf240131")
+	)
+	(wire
+		(pts
+			(xy 99.695 108.585) (xy 99.695 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dffb43b-5089-4fab-8b43-ab8d1d363d07")
+	)
+	(wire
+		(pts
+			(xy 142.24 73.025) (xy 142.24 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4efd67a4-04fc-47c2-9f18-d4e3d3b2c178")
+	)
+	(wire
+		(pts
+			(xy 148.59 139.7) (xy 142.24 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "523dbc6d-b06a-40b0-ae6a-d5accce0372d")
+	)
+	(wire
+		(pts
+			(xy 130.175 108.585) (xy 130.175 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54bab634-daf5-4c48-a027-a006719da4c7")
+	)
+	(wire
+		(pts
+			(xy 140.335 123.19) (xy 142.24 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58831e2b-2c0c-4940-8b3f-65cc446f3f4e")
+	)
+	(wire
+		(pts
+			(xy 99.695 58.42) (xy 107.95 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58891853-67d9-42a1-993f-c3acfa395b69")
+	)
+	(wire
+		(pts
+			(xy 99.695 139.7) (xy 105.41 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a6446e8-5df4-43df-96af-3e7fd040dc27")
+	)
+	(wire
+		(pts
+			(xy 110.49 81.28) (xy 110.49 69.215)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c5e9b94-4d00-4ddf-b52d-a4c29d7a2723")
+	)
+	(wire
+		(pts
+			(xy 174.625 135.255) (xy 166.37 135.255)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ca0e8e1-9f67-4c6c-bb48-977f2b75cf06")
+	)
+	(wire
+		(pts
+			(xy 118.745 127) (xy 118.745 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cf8d6ec-0d4a-426d-a55e-5662936a9280")
+	)
+	(wire
+		(pts
+			(xy 148.59 109.855) (xy 166.37 109.855)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e45a31a-6dd4-46b9-a795-068493640303")
+	)
+	(wire
+		(pts
+			(xy 142.24 90.17) (xy 149.225 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f26c28d-ce2f-4ff6-b594-0fdbf1e93159")
+	)
+	(wire
+		(pts
+			(xy 182.245 109.855) (xy 184.785 109.855)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63187062-901c-41d3-9e64-95be1af99fca")
+	)
+	(wire
+		(pts
+			(xy 149.225 60.325) (xy 149.225 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63ca99ce-81aa-4315-86b8-788179305aa5")
+	)
+	(wire
+		(pts
+			(xy 182.245 90.17) (xy 184.785 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63d6c567-d1bf-4c06-83e7-2059f3f56276")
+	)
+	(wire
+		(pts
+			(xy 130.175 90.17) (xy 142.24 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66b1ed3e-72ff-4b43-bc8f-8b4f0c39696a")
+	)
+	(wire
+		(pts
+			(xy 148.59 135.255) (xy 148.59 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ad14b2f-e2e8-4177-8f13-02b968c7caa9")
+	)
+	(wire
+		(pts
+			(xy 166.37 85.725) (xy 166.37 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ae242a6-6614-497e-ba9e-9268771117e4")
+	)
+	(wire
+		(pts
+			(xy 142.24 88.9) (xy 142.24 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aedc0bb-9f27-42e5-b229-080320ad94eb")
+	)
+	(wire
+		(pts
+			(xy 120.015 97.79) (xy 142.24 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7138a238-d741-47f5-b332-eeaf2cac9b00")
+	)
+	(polyline
+		(pts
+			(xy 153.67 143.51) (xy 153.67 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 194 194 1)
+		)
+		(uuid "75664bf5-3229-4eba-b62f-c27187dbc32e")
+	)
+	(wire
+		(pts
+			(xy 174.625 85.725) (xy 166.37 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7682b888-c705-48e0-a2c7-6a706817705e")
+	)
+	(wire
+		(pts
+			(xy 148.59 139.7) (xy 161.925 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a1d8660-0489-4db9-b343-d3f4db5eb5a7")
+	)
+	(polyline
+		(pts
+			(xy 154.305 93.98) (xy 154.305 47.625)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 194 194 1)
+		)
+		(uuid "7b121aa9-5433-4de8-8870-76247381e241")
+	)
+	(wire
+		(pts
+			(xy 149.225 66.675) (xy 149.225 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b4a9f38-e491-42f5-900e-43e4b6ea8a05")
+	)
+	(wire
+		(pts
+			(xy 110.49 131.445) (xy 110.49 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e4f4da2-300a-4767-b852-86d4cbf0ad22")
+	)
+	(wire
+		(pts
+			(xy 110.49 69.215) (xy 120.015 69.215)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86227c96-1644-4e10-aae0-ef7991e9fc18")
+	)
+	(wire
+		(pts
+			(xy 120.015 65.405) (xy 105.41 65.405)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86529469-5bae-49fd-ba19-f13dd6018357")
+	)
+	(wire
+		(pts
+			(xy 148.59 109.855) (xy 148.59 111.125)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87e65c07-ab43-426f-9baf-a75440b89992")
+	)
+	(wire
+		(pts
+			(xy 184.785 139.7) (xy 182.245 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89051c11-9633-4979-8aeb-43e3e5556193")
+	)
+	(wire
+		(pts
+			(xy 120.015 115.57) (xy 105.41 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89931764-7e23-4fb5-85da-27c286c73ac4")
+	)
+	(wire
+		(pts
+			(xy 149.225 90.17) (xy 161.925 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8af7514f-8d68-4557-b30d-55c03f09b2a0")
+	)
+	(wire
+		(pts
+			(xy 177.165 137.16) (xy 163.83 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c78357f-25ae-47e1-be54-b9c937eb4a80")
+	)
+	(wire
+		(pts
+			(xy 142.24 139.7) (xy 130.175 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "923b8439-2c47-4589-af0e-c1a5dfe1f0e5")
+	)
+	(wire
+		(pts
+			(xy 105.41 86.36) (xy 105.41 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93302fbf-1c0c-4f5c-bc21-ca1d4b7299f9")
+	)
+	(wire
+		(pts
+			(xy 161.925 90.17) (xy 167.64 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95153206-6d06-4a9e-b56a-9e7fc7dea946")
+	)
+	(polyline
+		(pts
+			(xy 153.67 143.51) (xy 144.78 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 194 194 1)
+		)
+		(uuid "98d91023-184c-42ef-ab68-d6197f1c82f5")
+	)
+	(wire
+		(pts
+			(xy 179.705 85.725) (xy 179.705 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "995bd17e-ee40-4b34-997d-dea327b8f7c4")
+	)
+	(wire
+		(pts
+			(xy 142.24 73.025) (xy 156.21 73.025)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9abc659c-311f-49bc-acf6-8ab7f552fe39")
+	)
+	(wire
+		(pts
+			(xy 166.37 50.165) (xy 166.37 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ac75e0e-c42d-4c3a-ba83-0dc26ff761f0")
+	)
+	(wire
+		(pts
+			(xy 148.59 116.205) (xy 148.59 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a181d14b-f641-415a-a531-c5a0df02f41c")
+	)
+	(wire
+		(pts
+			(xy 99.695 58.42) (xy 99.695 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1a65396-3794-4f23-bc50-4248e297b399")
+	)
+	(wire
+		(pts
+			(xy 148.59 130.175) (xy 148.59 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a84fe3b9-6592-493b-ae48-5945aa288f5f")
+	)
+	(wire
+		(pts
+			(xy 105.41 136.525) (xy 105.41 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa866f3a-2cee-4ae4-9a62-7c625b51d8a0")
+	)
+	(wire
+		(pts
+			(xy 179.705 109.855) (xy 182.245 109.855)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab16a850-e5b9-4184-af69-81d2c818f966")
+	)
+	(wire
+		(pts
+			(xy 161.29 123.19) (xy 163.83 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acdb39f9-4ff4-4a01-ac9d-233412c64332")
+	)
+	(wire
+		(pts
+			(xy 184.785 139.7) (xy 191.77 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "add1d9e3-21bd-41ee-97f9-6c15ff137c39")
+	)
+	(wire
+		(pts
+			(xy 184.785 85.725) (xy 184.785 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b09efcc0-c20a-4526-92f1-5989458163d9")
+	)
+	(wire
+		(pts
+			(xy 116.205 73.025) (xy 116.205 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b83fb094-a73b-4823-9469-6806198d2029")
+	)
+	(wire
+		(pts
+			(xy 191.77 139.7) (xy 191.77 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8cb709e-b515-4d6b-baab-a9ccb2751c29")
+	)
+	(wire
+		(pts
+			(xy 110.49 139.7) (xy 116.205 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba7b4564-d240-4e81-b01d-a1e4225447ba")
+	)
+	(wire
+		(pts
+			(xy 82.55 100.33) (xy 166.37 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be322998-749e-40cc-b4bc-8c02610afd2f")
+	)
+	(polyline
+		(pts
+			(xy 154.305 47.625) (xy 146.05 47.625)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 194 194 1)
+		)
+		(uuid "c37600c7-d26d-4d5d-b719-69bd7fb7a99c")
+	)
+	(wire
+		(pts
+			(xy 105.41 115.57) (xy 105.41 131.445)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3dc14ca-bb7a-4c48-a008-e5b1da8b0c26")
+	)
+	(wire
+		(pts
+			(xy 130.175 56.515) (xy 130.175 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c44da2b9-0390-4fb9-ab8a-ba5cd1f3519f")
+	)
+	(wire
+		(pts
+			(xy 148.59 109.855) (xy 148.59 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c72ee0cc-ac47-42ca-8772-f2789bc8dcfa")
+	)
+	(wire
+		(pts
+			(xy 110.49 86.36) (xy 110.49 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8e3017e-b7e8-473e-88a4-e8744c388637")
+	)
+	(wire
+		(pts
+			(xy 130.175 58.42) (xy 130.175 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca9af4df-1371-40f1-a791-1554ab1e5379")
+	)
+	(wire
+		(pts
+			(xy 179.705 135.255) (xy 179.705 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cac640bc-ac59-4412-8c3d-da4b530d5d77")
+	)
+	(wire
+		(pts
+			(xy 172.72 139.7) (xy 179.705 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce9b1b44-ed84-4b42-a88b-2e88f2a1b7d7")
+	)
+	(wire
+		(pts
+			(xy 116.205 123.19) (xy 116.205 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1aed899-2711-42c5-8f29-4ed3bd609a44")
+	)
+	(wire
+		(pts
+			(xy 142.24 123.19) (xy 156.21 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1e33fad-0a67-4512-aa07-dfff4929f6f6")
+	)
+	(wire
+		(pts
+			(xy 120.015 123.19) (xy 116.205 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6561636-5942-4203-8037-4bffe0b5f416")
+	)
+	(wire
+		(pts
+			(xy 130.175 80.645) (xy 130.175 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d71cdf7c-f887-4fc5-8c2e-709cfa98202c")
+	)
+	(wire
+		(pts
+			(xy 184.785 90.17) (xy 191.77 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7e2ce4d-f3dd-4781-9e30-29843f1aa633")
+	)
+	(wire
+		(pts
+			(xy 142.24 123.19) (xy 142.24 131.445)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d98781db-bb3d-4bdd-a5ef-b231bab199ca")
+	)
+	(wire
+		(pts
+			(xy 172.72 90.17) (xy 179.705 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da1ca6d0-cf05-4cc6-ab1b-81aeb3032adc")
+	)
+	(wire
+		(pts
+			(xy 113.03 58.42) (xy 130.175 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbfa9c12-2b25-41d2-806b-42ad0f172ac5")
+	)
+	(wire
+		(pts
+			(xy 120.015 76.835) (xy 120.015 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1b772bc-3ce5-4a0d-944d-0e58cd4126d9")
+	)
+	(wire
+		(pts
+			(xy 99.695 90.17) (xy 105.41 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e316140f-f3e4-4ca1-a89e-7274cf3f08c6")
+	)
+	(wire
+		(pts
+			(xy 161.925 139.7) (xy 167.64 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3395408-ff1c-4af2-9ea4-d57f2133c5af")
+	)
+	(wire
+		(pts
+			(xy 184.785 135.255) (xy 184.785 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea16b9f1-1b19-4d9e-bc99-b4edb70fc41c")
+	)
+	(wire
+		(pts
+			(xy 149.225 80.01) (xy 149.225 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed0d9f81-78f9-4304-ab46-bfa93c9d7086")
+	)
+	(wire
+		(pts
+			(xy 116.205 73.025) (xy 120.015 73.025)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0f06fbd-09ff-4c85-8169-ab729f077dbc")
+	)
+	(wire
+		(pts
+			(xy 130.175 106.68) (xy 130.175 108.585)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4cc5441-7f42-429b-ad3b-4f3a333a00a8")
+	)
+	(wire
+		(pts
+			(xy 105.41 65.405) (xy 105.41 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7e5bfaf-09b1-4154-a682-01e837a3b4e7")
+	)
+	(wire
+		(pts
+			(xy 149.225 61.595) (xy 149.225 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fded1dd8-5cc4-4067-8792-9e397a4aabd9")
+	)
+	(wire
+		(pts
+			(xy 142.24 97.79) (xy 142.24 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feec4588-8102-4b9e-8a74-1d3f6f7825a6")
+	)
+	(wire
+		(pts
+			(xy 166.37 109.855) (xy 177.165 109.855)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff1a2a9e-5a16-4f65-9062-92fb6108422c")
+	)
+	(wire
+		(pts
+			(xy 140.335 73.025) (xy 142.24 73.025)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff8c123b-ea02-402f-a084-7ed9d3fa236a")
+	)
+	(hierarchical_label "3"
+		(shape input)
+		(at 81.915 50.165 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "08a8f5e6-81f0-42be-938c-3f16985ef9f9")
+	)
+	(hierarchical_label "Rect_GND"
+		(shape output)
+		(at 199.39 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8a933cfe-d7fc-44bc-8008-0054fab11f91")
+	)
+	(hierarchical_label "5"
+		(shape input)
+		(at 82.55 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e20cf1f0-305f-4fab-807d-b0351ceed093")
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 158.75 73.025 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "036e0876-da16-4b0c-86cb-905651c47a18")
+		(property "Reference" "R32"
+			(at 156.845 71.374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7"
+			(at 156.972 74.803 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DCDC-Footprints:R_1206_3216Metric"
+			(at 158.75 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/ProductDetail/Panasonic/ERJ-P08J4R7V?qs=sGAEpiMZZMtlubZbdhIBIK7FbVYKWV6WtRy9y9o9OQM%3D"
+			(at 158.75 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-P08J4R7V"
+			(at 158.75 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty Order" "2"
+			(at 158.75 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "comment" "Gate current limiter. Smaller values will lower switching times, but might increase ringing"
+			(at 158.75 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "Mouser"
+			(at 158.75 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ignore for iBOM" "1"
+			(at 158.75 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ecba53d9-250f-441b-b329-24aa09ddebdb")
+		)
+		(pin "2"
+			(uuid "f9392430-1dc7-4c2f-b57a-899f12788487")
+		)
+		(instances
+			(project "DCDCv9-3"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f15fb192-dd8c-47e0-b666-18e68639bc69/0dce28cb-96b7-471d-a806-7eb0e0d2257a"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DC-DC Symbol Lib:NCP43080AMTTWG")
+		(at 130.175 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ee3d295-77cd-4680-8bdd-a7ec0dac9e21")
+		(property "Reference" "U7"
+			(at 122.2091 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NCP4305DMTTWG"
+			(at 124.1141 121.285 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DCDC-Footprints:WDFN-8_2x2mm_P0.5mm"
+			(at 130.175 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/ProductDetail/onsemi/NCP4305DMTTWG?qs=8hV9pjh0QhMP%252BMQhCLTuGQ%3D%3D"
+			(at 131.445 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.175 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NCP4305DMTTWG"
+			(at 130.175 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty Order" "2"
+			(at 130.175 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "comment" ""
+			(at 130.175 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "Mouser"
+			(at 130.175 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ignore for PCBA" "1"
+			(at 130.175 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "973ac95b-5890-4d37-a58f-9e90c46d6c67")
+		)
+		(pin "3"
+			(uuid "78c3749c-e9d7-43ab-aacb-c21808b74d11")
+		)
+		(pin "4"
+			(uuid "e58a53b4-8a58-4fa1-99a9-dbf9895aee3f")
+		)
+		(pin "8"
+			(uuid "b804fb6e-e72c-46c1-bdfd-43266b7f1904")
+		)
+		(pin "2"
+			(uuid "6c6b6de8-2bf7-41ad-8539-700a666e9ae3")
+		)
+		(pin "5"
+			(uuid "97cc6930-d04c-4b64-9c86-35c18978dc2b")
+		)
+		(pin "6"
+			(uuid "a4fb352d-dfc1-477b-8ae0-6a90b42b7048")
+		)
+		(pin "7"
+			(uuid "04c1caf5-2a1f-42f4-9c6d-d0b07a6f881d")
+		)
+		(instances
+			(project "DCDCv9-3"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f15fb192-dd8c-47e0-b666-18e68639bc69/0dce28cb-96b7-471d-a806-7eb0e0d2257a"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 142.24 133.985 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14b8d4ee-6cf2-44c9-8446-0e08375e9dc7")
+		(property "Reference" "R20"
+			(at 137.668 133.0765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 137.668 135.2166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "DCDC-Footprints:R_0603_1608Metric"
+			(at 142.24 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/ProductDetail/ROHM-Semiconductor/ESR03EZPJ103?qs=DyUWGjl%252BcVt8C23uz7MWdg%3D%3D"
+			(at 142.24 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESR03EZPJ103"
+			(at 142.24 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty Order" "14"
+			(at 142.24 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "comment" ""
+			(at 142.24 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "Mouser"
+			(at 142.24 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ignore for iBOM" "1"
+			(at 142.24 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33116541-16cb-4b04-9a3a-763146cad2e2")
+		)
+		(pin "2"
+			(uuid "cfcfc8c7-10d6-41d2-99f2-e85e7ba69c49")
+		)
+		(instances
+			(project "DCDCv9-3"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f15fb192-dd8c-47e0-b666-18e68639bc69/0dce28cb-96b7-471d-a806-7eb0e0d2257a"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 110.49 108.585 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "167e75c0-9c00-4f4b-9f65-ce4499fb466e")
+		(property "Reference" "C6"
+			(at 109.982 105.6935 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 110.617 111.1734 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DCDC-Footprints:C_0603_1608Metric"
+			(at 110.49 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/ProductDetail/187-CL10B105KB8NQNC"
+			(at 110.49 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10B105KB8NQNC"
+			(at 110.49 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty Order" "1"
+			(at 110.49 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "comment" ""
+			(at 110.49 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "Mouser"
+			(at 110.49 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ignore for iBOM" "1"
+			(at 110.49 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46858ddd-9070-4e2c-9d3f-555204738232")
+		)
+		(pin "2"
+			(uuid "7d512ea4-49f4-4377-ba6e-9acb60a198ea")
+		)
+		(instances
+			(project "DCDCv9-3"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f15fb192-dd8c-47e0-b666-18e68639bc69/0dce28cb-96b7-471d-a806-7eb0e0d2257a"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 163.83 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "2760ec73-3e79-4f83-bda5-08b3bd890030")
+		(property "Reference" "TP6"
+			(at 161.925 117.983 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 161.29 117.983 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DCDC-Footprints:TestPoint_Pad_D0.8mm_DC-DC"
+			(at 168.91 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "~"
+			(at 163.83 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty Order" "8"
+			(at 163.83 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "comment" "Testpoint. It's not implied to put a component on here."
+			(at 163.83 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "-"
+			(at 163.83 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ignore for PCBA" "1"
+			(at 163.83 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ignore for iBOM" "1"
+			(at 163.83 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3751bac-a2c4-49d6-8940-c3516f3e27d1")
+		)
+		(instances
+			(project "DCDCv9-3"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f15fb192-dd8c-47e0-b666-18e68639bc69/0dce28cb-96b7-471d-a806-7eb0e0d2257a"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 149.225 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "2870bf50-29f6-4109-a2e5-1d3c94b23651")
+		(property "Reference" "TP2"
+			(at 147.32 53.213 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 146.685 53.213 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DCDC-Footprints:TestPoint_Pad_D0.8mm_DC-DC"
+			(at 154.305 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.305 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.225 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "~"
+			(at 149.225 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty Order" "8"
+			(at 149.225 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "comment" "Testpoint. It's not implied to put a component on here."
+			(at 149.225 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "-"
+			(at 149.225 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ignore for PCBA" "1"
+			(at 149.225 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ignore for iBOM" "1"
+			(at 149.225 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b39d27c2-24da-4007-8d92-f249b91f5383")
+		)
+		(instances
+			(project "DCDCv9-3"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f15fb192-dd8c-47e0-b666-18e68639bc69/0dce28cb-96b7-471d-a806-7eb0e0d2257a"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 149.225 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c75dd4e-be03-45ea-bbd2-3a396c62a89e")
+		(property "Reference" "C9"
+			(at 148.844 80.4105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 nF"
+			(at 152.019 85.8904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DCDC-Footprints:C_1206_3216Metric"
+			(at 149.225 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/ProductDetail/Walsin/SH31B102K631CT?qs=ZrPdAQfJ6DPRDGJZHcu%252BNw%3D%3D"
+			(at 149.225 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.225 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SH31B102K631CT"
+			(at 149.225 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty Order" "3"
+			(at 149.225 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "comment" ""
+			(at 149.225 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "Mouser"
+			(at 149.225 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ignore for iBOM" "1"
+			(at 149.225 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4719459-0a10-4586-bfcf-c6c171c542f0")
+		)
+		(pin "2"
+			(uuid "be3ff7ae-0705-4ae4-b4e2-5debf1017e87")
+		)
+		(instances
+			(project "DCDCv9-3"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f15fb192-dd8c-47e0-b666-18e68639bc69/0dce28cb-96b7-471d-a806-7eb0e0d2257a"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 110.49 58.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56102a54-9af5-4767-b7d6-058ec03fc0ae")
+		(property "Reference" "C4"
+			(at 109.982 55.5285 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 110.617 61.0084 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DCDC-Footprints:C_0603_1608Metric"
+			(at 110.49 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/ProductDetail/187-CL10B105KB8NQNC"
+			(at 110.49 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10B105KB8NQNC"
+			(at 110.49 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty Order" "1"
+			(at 110.49 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "comment" ""
+			(at 110.49 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "Mouser"
+			(at 110.49 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ignore for iBOM" "1"
+			(at 110.49 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99517243-c9b3-4594-8bab-5cb75741f9c7")
+		)
+		(pin "2"
+			(uuid "b2a350ec-d82c-4729-a7a6-0cf2e10bc2cb")
+		)
+		(instances
+			(project "DCDCv9-3"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f15fb192-dd8c-47e0-b666-18e68639bc69/0dce28cb-96b7-471d-a806-7eb0e0d2257a"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DC-DC Symbol Lib:NCP43080AMTTWG")
+		(at 130.175 70.485 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "563d6211-45cd-4c67-868c-5373d885ddba")
+		(property "Reference" "U5"
+			(at 122.2091 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NCP4305DMTTWG"
+			(at 124.1141 71.12 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DCDC-Footprints:WDFN-8_2x2mm_P0.5mm"
+			(at 130.175 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/ProductDetail/onsemi/NCP4305DMTTWG?qs=8hV9pjh0QhMP%252BMQhCLTuGQ%3D%3D"
+			(at 131.445 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.175 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NCP4305DMTTWG"
+			(at 130.175 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty Order" "2"
+			(at 130.175 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "comment" ""
+			(at 130.175 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "Mouser"
+			(at 130.175 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ignore for PCBA" "1"
+			(at 130.175 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "992850b5-fb04-4877-8fa4-a210346af726")
+		)
+		(pin "3"
+			(uuid "db808e45-9ed5-4ecc-ba58-a589130d5ddf")
+		)
+		(pin "4"
+			(uuid "fb04d400-a169-4a71-8ed3-b0686efa415d")
+		)
+		(pin "8"
+			(uuid "c5e5319c-7c8a-49b5-b4a4-730f462d3653")
+		)
+		(pin "2"
+			(uuid "b9d24c55-a3af-49af-8024-ceaaafb114fd")
+		)
+		(pin "5"
+			(uuid "9f709b7a-effc-4b90-a20c-a8bd5a8271cf")
+		)
+		(pin "6"
+			(uuid "e4421654-387c-43cb-bb50-01871c0c9e5b")
+		)
+		(pin "7"
+			(uuid "0564b751-ecc4-4401-ab99-8f22ac9d3668")
+		)
+		(instances
+			(project "DCDCv9-3"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f15fb192-dd8c-47e0-b666-18e68639bc69/0dce28cb-96b7-471d-a806-7eb0e0d2257a"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 163.83 73.025 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "71bcbe38-2a05-45d3-a46d-b263cf32e944")
+		(property "Reference" "TP5"
+			(at 161.925 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 161.29 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DCDC-Footprints:TestPoint_Pad_D0.8mm_DC-DC"
+			(at 168.91 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "~"
+			(at 163.83 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty Order" "8"
+			(at 163.83 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "comment" "Testpoint. It's not implied to put a component on here."
+			(at 163.83 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "-"
+			(at 163.83 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ignore for PCBA" "1"
+			(at 163.83 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ignore for iBOM" "1"
+			(at 163.83 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69bc5707-b6eb-48bc-844c-eef09c61f203")
+		)
+		(instances
+			(project "DCDCv9-3"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f15fb192-dd8c-47e0-b666-18e68639bc69/0dce28cb-96b7-471d-a806-7eb0e0d2257a"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 170.18 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "74dcb51d-1dd1-47f6-a589-1b7417087114")
+		(property "Reference" "NT2"
+			(at 170.18 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 170.18 140.97 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "DCDC-Footprints:dummy_net_line_0.5mm"
+			(at 170.18 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 170.18 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "comment" "This is not a real component, just used for design purposes"
+			(at 170.18 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "-"
+			(at 170.18 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "~"
+			(at 170.18 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ignore for PCBA" "1"
+			(at 170.18 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ignore for iBOM" "1"
+			(at 170.18 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16d8e5aa-292a-4238-af22-30fbf77caa78")
+		)
+		(pin "2"
+			(uuid "a6599de3-0a77-4ad6-a790-759e8e035ad6")
+		)
+		(instances
+			(project "DCDCv9-3"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f15fb192-dd8c-47e0-b666-18e68639bc69/0dce28cb-96b7-471d-a806-7eb0e0d2257a"
+					(reference "NT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 149.225 64.135 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "799eb82d-464c-4aea-a99b-e87273429d4f")
+		(property "Reference" "R30"
+			(at 152.146 63.5508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 152.146 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DCDC-Footprints:R_1206_3216Metric"
+			(at 149.225 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/ProductDetail/YAGEO/RC1206JR-7W100RL?qs=sGAEpiMZZMtlubZbdhIBINhe0vL5TjR%2FergItSUAfLI%3D"
+			(at 149.225 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.225 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC1206JR-7W100RL"
+			(at 149.225 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty Order" "4"
+			(at 149.225 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "comment" ""
+			(at 149.225 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "Mouser"
+			(at 149.225 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ignore for iBOM" "1"
+			(at 149.225 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0dd5775b-de06-48eb-bd02-697ec47ac471")
+		)
+		(pin "2"
+			(uuid "ff3b46ab-c1d0-4ee9-83c9-b057931d31d4")
+		)
+		(instances
+			(project "DCDCv9-3"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f15fb192-dd8c-47e0-b666-18e68639bc69/0dce28cb-96b7-471d-a806-7eb0e0d2257a"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 158.75 123.19 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "816ec1a1-05c1-4459-bbcf-c3a1891f81df")
+		(property "Reference" "R33"
+			(at 156.845 121.539 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7"
+			(at 156.337 125.603 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DCDC-Footprints:R_1206_3216Metric"
+			(at 158.75 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/ProductDetail/Panasonic/ERJ-P08J4R7V?qs=sGAEpiMZZMtlubZbdhIBIK7FbVYKWV6WtRy9y9o9OQM%3D"
+			(at 158.75 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-P08J4R7V"
+			(at 158.75 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty Order" "2"
+			(at 158.75 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "comment" "Gate current limiter. Smaller values will lower switching times, but might increase ringing"
+			(at 158.75 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "Mouser"
+			(at 158.75 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ignore for iBOM" "1"
+			(at 158.75 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad4d21d6-1f5e-4cd2-9177-574892002148")
+		)
+		(pin "2"
+			(uuid "8558f2e4-4d1c-4cb9-8909-9e6ebb49fee1")
+		)
+		(instances
+			(project "DCDCv9-3"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f15fb192-dd8c-47e0-b666-18e68639bc69/0dce28cb-96b7-471d-a806-7eb0e0d2257a"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Samacsys:BSC027N06LS5ATMA1")
+		(at 184.785 85.725 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84754455-0fa9-446a-9ca0-8c40b2706dd7")
+		(property "Reference" "Q8"
+			(at 174.625 64.1349 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BSC027N06LS5ATMA1"
+			(at 190.5 62.8649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "DCDC-Footprints:BSC027N06LS5ATMA1"
+			(at 89.865 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/ProductDetail/Infineon-Technologies/BSC027N06LS5ATMA1?qs=HXFqYaX1Q2z6vEIhZX7Vzw%3D%3D"
+			(at -10.135 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET DIFFERENTIATED MOSFETS"
+			(at 184.785 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1"
+			(at -210.135 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "726-BSC027N06LS5ATMA"
+			(at -310.135 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSC027N06LS5ATMA1?qs=HXFqYaX1Q2z6vEIhZX7Vzw%3D%3D"
+			(at -410.135 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Infineon"
+			(at -510.135 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BSC027N06LS5ATMA1"
+			(at -610.135 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "comment" ""
+			(at 184.785 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "Mouser"
+			(at 184.785 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ignore for iBOM" "1"
+			(at 184.785 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d384dd85-1ffe-4733-b305-5e6fad386cd9")
+		)
+		(pin "1"
+			(uuid "9111c4c8-f427-4b51-8392-e9c2a99d255d")
+		)
+		(pin "4"
+			(uuid "964310d7-99fd-48c9-9fb2-194db7049010")
+		)
+		(pin "6"
+			(uuid "e2bb0d7e-105a-4c13-aa58-0166c789c306")
+		)
+		(pin "5"
+			(uuid "e8c7c0a5-8029-4196-acf7-d869ad2dee69")
+		)
+		(pin "2"
+			(uuid "81909bb5-7320-451a-99ef-3e3538f0f997")
+		)
+		(pin "7"
+			(uuid "2146ac68-85c4-4b4a-9411-040aeb500410")
+		)
+		(pin "8"
+			(uuid "d66de400-3fbb-4e27-819f-5a835b6568b2")
+		)
+		(pin "9"
+			(uuid "4b57f74c-4a79-434f-a3f3-010b63a77b94")
+		)
+		(instances
+			(project "DCDCv9-3"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f15fb192-dd8c-47e0-b666-18e68639bc69/0dce28cb-96b7-471d-a806-7eb0e0d2257a"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DC-DC Symbol Lib:+12V_sw")
+		(at 130.175 56.515 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "885a83de-4637-4cdf-8505-46a987a9e765")
+		(property "Reference" "#PWR08"
+			(at 130.175 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V_sw"
+			(at 135.89 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.175 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.175 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.175 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2e79bb5-306f-4c52-9503-c5ce93327982")
+		)
+		(instances
+			(project "DCDCv9-3"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f15fb192-dd8c-47e0-b666-18e68639bc69/0dce28cb-96b7-471d-a806-7eb0e0d2257a"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 161.925 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a79e2cf-4941-4d47-b2ad-bcfd90183eee")
+		(property "Reference" "TP4"
+			(at 160.02 134.4929 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 159.385 134.493 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DCDC-Footprints:TestPoint_Pad_D0.8mm_DC-DC"
+			(at 167.005 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.005 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.925 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "~"
+			(at 161.925 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty Order" "8"
+			(at 161.925 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "comment" "Testpoint. It's not implied to put a component on here."
+			(at 161.925 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "-"
+			(at 161.925 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ignore for PCBA" "1"
+			(at 161.925 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ignore for iBOM" "1"
+			(at 161.925 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "961c1b20-f32d-40b1-8137-4d27e24b16f9")
+		)
+		(instances
+			(project "DCDCv9-3"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f15fb192-dd8c-47e0-b666-18e68639bc69/0dce28cb-96b7-471d-a806-7eb0e0d2257a"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 105.41 133.985 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93fe94aa-8276-4c99-a86e-4dcefd2d8b13")
+		(property "Reference" "R13"
+			(at 100.203 133.0765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 100.203 135.2166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "DCDC-Footprints:R_0603_1608Metric"
+			(at 105.41 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/ProductDetail/ROHM-Semiconductor/ESR03EZPJ103?qs=DyUWGjl%252BcVt8C23uz7MWdg%3D%3D"
+			(at 105.41 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty Order" "3"
+			(at 105.41 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESR03EZPJ103"
+			(at 159.385 4.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "comment" ""
+			(at 105.41 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "Mouser"
+			(at 105.41 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ignore for iBOM" "1"
+			(at 105.41 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56fe74a4-ff72-40cd-b0cd-1a797a6d954f")
+		)
+		(pin "2"
+			(uuid "8fea0ba3-b0d6-46d6-ac6c-0ef7ab066cf0")
+		)
+		(instances
+			(project "DCDCv9-3"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f15fb192-dd8c-47e0-b666-18e68639bc69/0dce28cb-96b7-471d-a806-7eb0e0d2257a"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 161.925 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d23eefa-ab0b-4418-b36d-52cfa7cf5380")
+		(property "Reference" "TP3"
+			(at 160.02 84.963 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 159.385 84.963 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DCDC-Footprints:TestPoint_Pad_D0.8mm_DC-DC"
+			(at 167.005 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.005 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.925 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "~"
+			(at 161.925 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty Order" "8"
+			(at 161.925 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "comment" "Testpoint. It's not implied to put a component on here."
+			(at 161.925 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "-"
+			(at 161.925 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ignore for PCBA" "1"
+			(at 161.925 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ignore for iBOM" "1"
+			(at 161.925 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93399df0-4d04-4325-90bc-20376580c966")
+		)
+		(instances
+			(project "DCDCv9-3"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f15fb192-dd8c-47e0-b666-18e68639bc69/0dce28cb-96b7-471d-a806-7eb0e0d2257a"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Samacsys:BSC027N06LS5ATMA1")
+		(at 184.785 135.255 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac101335-d30b-4a2f-8576-ffcea75027a9")
+		(property "Reference" "Q9"
+			(at 174.625 113.6649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BSC027N06LS5ATMA1"
+			(at 189.865 112.3949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "DCDC-Footprints:BSC027N06LS5ATMA1"
+			(at 89.865 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/ProductDetail/Infineon-Technologies/BSC027N06LS5ATMA1?qs=HXFqYaX1Q2z6vEIhZX7Vzw%3D%3D"
+			(at -10.135 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET DIFFERENTIATED MOSFETS"
+			(at 184.785 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1"
+			(at -210.135 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "726-BSC027N06LS5ATMA"
+			(at -310.135 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSC027N06LS5ATMA1?qs=HXFqYaX1Q2z6vEIhZX7Vzw%3D%3D"
+			(at -410.135 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Infineon"
+			(at -510.135 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BSC027N06LS5ATMA1"
+			(at -610.135 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "comment" ""
+			(at 184.785 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "Mouser"
+			(at 184.785 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ignore for iBOM" "1"
+			(at 184.785 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "bfab932a-6478-4608-8913-69803a00c8bb")
+		)
+		(pin "1"
+			(uuid "b978f11c-0d90-4f7f-8a4b-f2ac2f5bfa60")
+		)
+		(pin "4"
+			(uuid "45f3e02e-26d3-47d8-8416-4b07b06e7225")
+		)
+		(pin "6"
+			(uuid "c6f2f7eb-71bd-45c9-9095-60f8c8bc6e4e")
+		)
+		(pin "5"
+			(uuid "e541fc4a-ec90-4503-a554-162acda8d04d")
+		)
+		(pin "2"
+			(uuid "33edcbf7-e135-4f35-9b00-4217677ffd09")
+		)
+		(pin "7"
+			(uuid "eba2ef5c-c12c-47d3-b34b-2d08cc3fb14e")
+		)
+		(pin "8"
+			(uuid "a7986fa2-87f4-4c04-817e-c40a4c13ccd2")
+		)
+		(pin "9"
+			(uuid "85e89f5b-6dae-482d-a5c9-4d98f8d1e974")
+		)
+		(instances
+			(project "DCDCv9-3"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f15fb192-dd8c-47e0-b666-18e68639bc69/0dce28cb-96b7-471d-a806-7eb0e0d2257a"
+					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 110.49 83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "acfd9921-e3ed-4103-9c1c-5cf6d04b4357")
+		(property "Reference" "R14"
+			(at 111.633 82.9115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 111.633 85.0516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "DCDC-Footprints:R_0603_1608Metric"
+			(at 110.49 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/ProductDetail/ROHM-Semiconductor/ESR03EZPJ222?qs=DyUWGjl%252BcVuZfLe1fBr0Mg%3D%3D"
+			(at 110.49 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty Order" "6"
+			(at 110.49 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESR03EZPJ222"
+			(at 110.49 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "comment" ""
+			(at 110.49 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "Mouser"
+			(at 110.49 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ignore for iBOM" "1"
+			(at 110.49 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11911fd8-8446-49fa-a159-b486606cc847")
+		)
+		(pin "2"
+			(uuid "f2fabdf1-8b71-4aee-b9de-7bf82133f092")
+		)
+		(instances
+			(project "DCDCv9-3"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f15fb192-dd8c-47e0-b666-18e68639bc69/0dce28cb-96b7-471d-a806-7eb0e0d2257a"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 148.59 113.665 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9ea92f3-f38a-4141-81a1-10ceebc5af17")
+		(property "Reference" "R29"
+			(at 151.511 113.0808 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 151.638 115.062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DCDC-Footprints:R_1206_3216Metric"
+			(at 148.59 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/ProductDetail/YAGEO/RC1206JR-7W100RL?qs=sGAEpiMZZMtlubZbdhIBINhe0vL5TjR%2FergItSUAfLI%3D"
+			(at 148.59 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC1206JR-7W100RL"
+			(at 148.59 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty Order" "4"
+			(at 148.59 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "comment" ""
+			(at 148.59 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "Mouser"
+			(at 148.59 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ignore for iBOM" "1"
+			(at 148.59 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "921b80da-cac6-4f55-b398-44eafd30834a")
+		)
+		(pin "2"
+			(uuid "c618266f-6227-4788-bcc1-9abcf5552f62")
+		)
+		(instances
+			(project "DCDCv9-3"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f15fb192-dd8c-47e0-b666-18e68639bc69/0dce28cb-96b7-471d-a806-7eb0e0d2257a"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 170.18 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "bca50188-15fa-4377-afa4-016ffbd1656c")
+		(property "Reference" "NT1"
+			(at 170.18 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 170.18 91.44 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "DCDC-Footprints:dummy_net_line_0.5mm"
+			(at 170.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 170.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "comment" "This is not a real component, just used for design purposes"
+			(at 170.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "-"
+			(at 170.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "~"
+			(at 170.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ignore for PCBA" "1"
+			(at 170.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ignore for iBOM" "1"
+			(at 170.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32a06138-74b8-4998-9f1b-728172d012c8")
+		)
+		(pin "2"
+			(uuid "d944074b-072c-4267-a7c1-f7dc612bed3d")
+		)
+		(instances
+			(project "DCDCv9-3"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f15fb192-dd8c-47e0-b666-18e68639bc69/0dce28cb-96b7-471d-a806-7eb0e0d2257a"
+					(reference "NT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 148.59 132.715 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be11fc54-319a-496a-9110-d73851f7e653")
+		(property "Reference" "C7"
+			(at 148.209 130.5755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 nF"
+			(at 151.384 136.0554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DCDC-Footprints:C_1206_3216Metric"
+			(at 148.59 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/ProductDetail/Walsin/SH31B102K631CT?qs=ZrPdAQfJ6DPRDGJZHcu%252BNw%3D%3D"
+			(at 148.59 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SH31B102K631CT"
+			(at 148.59 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty Order" "3"
+			(at 148.59 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "comment" ""
+			(at 148.59 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "Mouser"
+			(at 148.59 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ignore for iBOM" "1"
+			(at 148.59 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38a6dee9-3060-478a-a857-6b14192bcb89")
+		)
+		(pin "2"
+			(uuid "df313c61-d464-4285-b1b2-eb9ca5fb1c68")
+		)
+		(instances
+			(project "DCDCv9-3"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f15fb192-dd8c-47e0-b666-18e68639bc69/0dce28cb-96b7-471d-a806-7eb0e0d2257a"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 148.59 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "dbd5e0e4-8bc4-4c5f-b3e5-15d6620ddd0f")
+		(property "Reference" "TP1"
+			(at 146.685 102.743 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 146.05 102.743 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DCDC-Footprints:TestPoint_Pad_D0.8mm_DC-DC"
+			(at 153.67 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "~"
+			(at 148.59 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty Order" "8"
+			(at 148.59 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "comment" "Testpoint. It's not implied to put a component on here."
+			(at 148.59 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "-"
+			(at 148.59 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ignore for PCBA" "1"
+			(at 148.59 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ignore for iBOM" "1"
+			(at 148.59 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4fb0aef1-0965-4c27-ae62-ec3be3fa9223")
+		)
+		(instances
+			(project "DCDCv9-3"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f15fb192-dd8c-47e0-b666-18e68639bc69/0dce28cb-96b7-471d-a806-7eb0e0d2257a"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 105.41 83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eaba1dd7-dc1f-4241-a0ce-7da99e2409b3")
+		(property "Reference" "R12"
+			(at 100.203 82.9115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 100.203 85.0516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "DCDC-Footprints:R_0603_1608Metric"
+			(at 105.41 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/ProductDetail/ROHM-Semiconductor/ESR03EZPJ103?qs=DyUWGjl%252BcVt8C23uz7MWdg%3D%3D"
+			(at 105.41 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty Order" "3"
+			(at 105.41 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESR03EZPJ103"
+			(at 159.385 4.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "comment" ""
+			(at 105.41 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "Mouser"
+			(at 105.41 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ignore for iBOM" "1"
+			(at 105.41 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c41da3c-e5a5-4bc1-bb5b-676942667fdb")
+		)
+		(pin "2"
+			(uuid "72fe27a1-0b68-4336-9949-1910b358f6db")
+		)
+		(instances
+			(project "DCDCv9-3"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f15fb192-dd8c-47e0-b666-18e68639bc69/0dce28cb-96b7-471d-a806-7eb0e0d2257a"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 110.49 133.985 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ebc81e73-bfbe-47ba-b986-ca5fb5272fe5")
+		(property "Reference" "R17"
+			(at 111.633 133.0765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 111.633 135.2166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "DCDC-Footprints:R_0603_1608Metric"
+			(at 110.49 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/ProductDetail/ROHM-Semiconductor/ESR03EZPJ222?qs=DyUWGjl%252BcVuZfLe1fBr0Mg%3D%3D"
+			(at 110.49 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty Order" "3"
+			(at 110.49 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESR03EZPJ222"
+			(at 110.49 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "comment" ""
+			(at 110.49 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "Mouser"
+			(at 110.49 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ignore for iBOM" "1"
+			(at 110.49 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b61abe0e-ae71-42ac-ad62-bb770b6df3d1")
+		)
+		(pin "2"
+			(uuid "e744f73e-29c0-410e-ab9e-3e4d508e0caf")
+		)
+		(instances
+			(project "DCDCv9-3"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f15fb192-dd8c-47e0-b666-18e68639bc69/0dce28cb-96b7-471d-a806-7eb0e0d2257a"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DC-DC Symbol Lib:+12V_sw")
+		(at 130.175 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed52471b-4160-4085-9514-aa026859e741")
+		(property "Reference" "#PWR09"
+			(at 130.175 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V_sw"
+			(at 135.89 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.175 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.175 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.175 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "caf37cc1-8815-48e9-a7de-37d32e121b9a")
+		)
+		(instances
+			(project "DCDCv9-3"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f15fb192-dd8c-47e0-b666-18e68639bc69/0dce28cb-96b7-471d-a806-7eb0e0d2257a"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 142.24 86.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eede2f53-795a-446a-85a9-8fc76d861361")
+		(property "Reference" "R19"
+			(at 137.668 85.4515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 137.668 87.5916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "DCDC-Footprints:R_0603_1608Metric"
+			(at 142.24 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/ProductDetail/ROHM-Semiconductor/ESR03EZPJ103?qs=DyUWGjl%252BcVt8C23uz7MWdg%3D%3D"
+			(at 142.24 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESR03EZPJ103"
+			(at 142.24 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty Order" "14"
+			(at 142.24 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "comment" ""
+			(at 142.24 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "Mouser"
+			(at 142.24 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ignore for iBOM" "1"
+			(at 142.24 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e60a765-757a-4c29-8a4f-8459ee8e6ae6")
+		)
+		(pin "2"
+			(uuid "a4a8565b-0eea-421a-a3bc-088147a386e0")
+		)
+		(instances
+			(project "DCDCv9-3"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f15fb192-dd8c-47e0-b666-18e68639bc69/0dce28cb-96b7-471d-a806-7eb0e0d2257a"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

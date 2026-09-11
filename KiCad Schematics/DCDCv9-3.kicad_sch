@@ -1,0 +1,691 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
+	(paper "A5")
+	(title_block
+		(title "DC/DC v9-3r1")
+		(date "2025-06-29")
+		(company "Author: SDMay26-24")
+	)
+	(lib_symbols)
+	(junction
+		(at 95.885 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09666034-4026-4f15-8ebe-2f8d25aec4b1")
+	)
+	(junction
+		(at 109.22 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3828b8aa-9f03-4ee1-9444-ed674a1eeb16")
+	)
+	(junction
+		(at 64.135 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b321a1f-ee53-435e-b324-4f397db1f01e")
+	)
+	(junction
+		(at 85.725 32.385)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68734df8-045a-434b-a688-be593f9d4021")
+	)
+	(junction
+		(at 114.935 62.865)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de7262cc-ffaf-4dd2-bb49-b932566cf820")
+	)
+	(wire
+		(pts
+			(xy 144.78 96.52) (xy 109.22 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01733e18-fec2-484e-9ae4-9143d3414f0e")
+	)
+	(wire
+		(pts
+			(xy 104.14 56.515) (xy 137.795 56.515)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d90e9d5-a180-46bd-a349-fafc313d368d")
+	)
+	(wire
+		(pts
+			(xy 56.515 36.83) (xy 95.885 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16b9bab6-b43e-4cd9-ae13-0c785bd0634c")
+	)
+	(wire
+		(pts
+			(xy 104.14 69.215) (xy 137.795 69.215)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ec1bb3b-53a4-42b2-96f7-546d1e17b796")
+	)
+	(wire
+		(pts
+			(xy 64.135 19.05) (xy 161.29 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ed546dc-dc4e-4330-9560-d76ac1ac94fc")
+	)
+	(wire
+		(pts
+			(xy 56.515 19.05) (xy 64.135 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3732f771-5f91-4f6b-beb5-e0f5f4342e00")
+	)
+	(wire
+		(pts
+			(xy 85.725 32.385) (xy 114.935 32.385)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38e71821-ffe8-4d62-8a22-e0111cf22887")
+	)
+	(wire
+		(pts
+			(xy 114.935 62.865) (xy 114.935 32.385)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b46e42b-87e4-4479-9fea-85e6a11be19c")
+	)
+	(wire
+		(pts
+			(xy 109.22 76.2) (xy 137.795 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e01097b-e2cb-4ef4-858d-4efcb3420cd6")
+	)
+	(wire
+		(pts
+			(xy 85.725 50.165) (xy 85.725 32.385)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "427534f6-4281-4b4c-ae37-784a73b8c1a0")
+	)
+	(wire
+		(pts
+			(xy 56.515 22.86) (xy 74.295 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4637f907-1709-4780-9a43-70ce56ce4e32")
+	)
+	(wire
+		(pts
+			(xy 95.885 36.83) (xy 161.29 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48290568-8faf-4d26-80c4-c8bc019371ed")
+	)
+	(wire
+		(pts
+			(xy 85.725 32.385) (xy 56.515 32.385)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48e968ff-b058-442a-b07b-185bae30c6f7")
+	)
+	(wire
+		(pts
+			(xy 95.885 36.83) (xy 95.885 50.165)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "600a57f0-c588-49b4-be02-07d94eec55fa")
+	)
+	(wire
+		(pts
+			(xy 114.935 89.535) (xy 114.935 62.865)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66bc764d-a198-4b6d-bf8f-99e641758660")
+	)
+	(wire
+		(pts
+			(xy 56.515 27.94) (xy 161.29 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d5059b0-0ebb-4108-b281-a2b4e1a1fe9e")
+	)
+	(wire
+		(pts
+			(xy 137.795 62.865) (xy 114.935 62.865)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e066104-f298-4370-92e5-6791ce8ad4ab")
+	)
+	(wire
+		(pts
+			(xy 104.14 76.2) (xy 109.22 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0d839c8-034d-4900-93eb-396d5bba04b2")
+	)
+	(wire
+		(pts
+			(xy 74.295 22.86) (xy 74.295 50.165)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7ca0205-b627-4fff-b10c-e61553092739")
+	)
+	(wire
+		(pts
+			(xy 109.22 96.52) (xy 109.22 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc273299-6179-4afe-90e0-b4a8451ee98a")
+	)
+	(wire
+		(pts
+			(xy 64.135 19.05) (xy 64.135 50.165)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de499d47-613b-423d-b66f-f4aeac90e0f8")
+	)
+	(wire
+		(pts
+			(xy 144.78 89.535) (xy 114.935 89.535)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f66c83cc-b79e-438c-8a3b-7f3d83db0d4e")
+	)
+	(sheet
+		(at 22.225 16.51)
+		(size 34.29 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "56cd6576-1735-49a9-91ab-414aea0d29e5")
+		(property "Sheetname" "Precharge"
+			(at 22.225 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Precharge.kicad_sch"
+			(at 22.225 39.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+HV" bidirectional
+			(at 56.515 19.05 0)
+			(uuid "10f51c7d-38cd-4b2b-9f61-0cdb0354041c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+12V_sw" bidirectional
+			(at 56.515 32.385 0)
+			(uuid "e9808384-89e8-46a7-b03f-e97bc14bc069")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+12V_HS" bidirectional
+			(at 56.515 22.86 0)
+			(uuid "a94baacd-8977-477e-aaf4-453c626108d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+12V_IN" input
+			(at 56.515 27.94 0)
+			(uuid "eb94a863-2770-4603-915e-2cbe1756b87d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "-HV_pc" bidirectional
+			(at 56.515 36.83 0)
+			(uuid "35b811b3-95f1-4255-81c7-64a6c9e4cf2a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "DCDCv9-3"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 137.795 53.34)
+		(size 34.925 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9b582f53-ff87-4f20-a76a-8088781cef8e")
+		(property "Sheetname" "Startup Supply"
+			(at 137.795 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Startup Supply.kicad_sch"
+			(at 137.795 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" bidirectional
+			(at 137.795 76.2 180)
+			(uuid "6fd96d92-8c36-45fd-bce7-c91d36ea81ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+12V_sw" bidirectional
+			(at 137.795 62.865 180)
+			(uuid "62e7e686-b4e3-4d3b-8d00-c68a995a19dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+9V" bidirectional
+			(at 137.795 69.215 180)
+			(uuid "7cba0cf9-3278-4156-9bb5-39118c59484b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+12V" bidirectional
+			(at 137.795 56.515 180)
+			(uuid "fb0a4662-bfe8-41d2-9ffc-641897061238")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "DCDCv9-3"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 161.29 15.875)
+		(size 31.75 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ba1247f2-52dc-4a3b-ba6e-8b6e49ec326b")
+		(property "Sheetname" "Oscillator"
+			(at 161.29 15.1634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Oscillator.kicad_sch"
+			(at 161.29 40.5896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "+HV" bidirectional
+			(at 161.29 19.05 180)
+			(uuid "fd82ecb0-1594-4612-b835-4a2fc7a20527")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+12V_IN" input
+			(at 161.29 27.94 180)
+			(uuid "72e43524-45ec-4536-8536-45ff2cddc476")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "-HV_pc" bidirectional
+			(at 161.29 36.83 180)
+			(uuid "2b9b1239-3977-4375-9589-b3fd713bae29")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "DCDCv9-3"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 144.78 86.995)
+		(size 17.78 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ca747ec7-f69c-426a-92bf-fd34d9d7a4c3")
+		(property "Sheetname" "Overtemp and Fan"
+			(at 144.78 86.2834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Overtemp and Fan.kicad_sch"
+			(at 144.78 99.0096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+12V_sw" bidirectional
+			(at 144.78 89.535 180)
+			(uuid "fc0e1547-7f39-428d-9792-afe6c8a3a38c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" bidirectional
+			(at 144.78 96.52 180)
+			(uuid "d1a5a0da-ac69-4f45-8567-ba3147edf119")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "DCDCv9-3"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 56.515 50.165)
+		(size 47.625 31.115)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f15fb192-dd8c-47e0-b666-18e68639bc69")
+		(property "Sheetname" "Primary and Secondary"
+			(at 56.515 49.4534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sheetfile" "Primary and Secondary.kicad_sch"
+			(at 56.515 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "-HV_pc" bidirectional
+			(at 95.885 50.165 90)
+			(uuid "f3ff2133-bfaa-4589-bffe-8dec440872ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" bidirectional
+			(at 104.14 76.2 0)
+			(uuid "70640bbc-f5b5-437f-b56b-f8956d094200")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+12V_HS" bidirectional
+			(at 74.295 50.165 90)
+			(uuid "bdbcf048-fd12-4ece-9b7b-d8215ceb61d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+12V_IN" input
+			(at 85.725 50.165 90)
+			(uuid "f1efdd17-7196-4274-8c0a-179de0b4412f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+9V" bidirectional
+			(at 104.14 69.215 0)
+			(uuid "fc25d997-34e0-441d-83ca-9c508d47f32b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+HV" bidirectional
+			(at 64.135 50.165 90)
+			(uuid "60198aa7-8569-4ff8-a585-3c238f85c24f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+12V" bidirectional
+			(at 104.14 56.515 0)
+			(uuid "d43e51de-31a9-4ca8-9957-6b9528b4331c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "DCDCv9-3"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
